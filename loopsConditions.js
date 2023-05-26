@@ -32,7 +32,7 @@
 
 
 //! numberThree
-// soru - sizden 1'den 100'e kadar sayıları konsola yazdırmanız istenmektedir ancak 3'ün katlarına gelince 'Fizz', 5' in katlarına glince 'Buzz' yazacak.Hem 'ün hemde 5' in katına geldiğinde ise 'FizzBuzz' yazdırmanız istenmektedir.
+//* soru - sizden 1'den 100'e kadar sayıları konsola yazdırmanız istenmektedir ancak 3'ün katlarına gelince 'Fizz', 5' in katlarına glince 'Buzz' yazacak.Hem 'ün hemde 5' in katına geldiğinde ise 'FizzBuzz' yazdırmanız istenmektedir.
 
 
 //   for(i = 1; i < 100; i++) {
@@ -50,7 +50,7 @@
 
 
 //! numberFour
-// soru - Bir sayının(number) basamak sayısını yazdıran kodu yazınız ?
+//* soru - Bir sayının(number) basamak sayısını yazdıran kodu yazınız ?
 
 //   let sayi = +prompt('please sayi')
 // let sayac = 1
@@ -64,7 +64,7 @@
 
 //! numberFive
 
-// soru - Aşağıdaki çıktıyı konsola yazdırınız ?
+//* soru - Aşağıdaki çıktıyı konsola yazdırınız ?
 
 0
 00
@@ -82,3 +82,24 @@
 //   str += "*";
 //   count++;
 // }
+
+
+//! numberSix
+
+// let prod = +promt('sayi giriniz')
+// let num1 = 0;
+// let num2 = 0;
+// let sum = 1;
+// let flag = true;
+// do{
+//   num1 = num2;
+//   num2 = sum;
+//   sum = num1 + num2;
+//   if (num1 * num2 == prod){
+//     flag = false;
+//     return [num1, num2, true];
+//   }else if (num1 * num2 > prod){
+//     flag = false;
+//     return [num1, num2, false];
+//   }
+//   }while(flag)
