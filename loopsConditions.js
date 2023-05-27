@@ -83,7 +83,6 @@
 //   count++;
 // }
 
-
 //! numberSix
 
 // let prod = +promt('sayi giriniz')
@@ -103,3 +102,37 @@
 //     return [num1, num2, false];
 //   }
 //   }while(flag)
+
+//! numberSeven
+//*  grades'in ortalamasini hesaplayiniz.
+// let counter= 0
+
+// const grades = [55, 77, 23, 89, 100, 44, 33, 45]
+
+// for (let i = 0; i < grades.length; i++) {
+//     counter += grades[i];
+
+// }
+
+// console.log((counter/grades.length).toFixed(1));
+
+
+
+//! numberEight
+//* grades dizisindeki notların 50'den kucuk olanları ve buyuk olanları 2 ayri diziye kaydediniz.
+
+// const grades = [55, 77, 23, 89, 100, 44, 33, 45]
+// let smallerThan = []
+// let biggerThan = []
+
+
+// for (i = 0; i < grades.length; i++) {
+//     if (grades[i] < 50) {
+//         smallerThan.push(grades[i])
+//     } else {
+//         biggerThan.push(grades[i])
+//     }
+// }
+
+// console.log(smallerThan);
+// console.log(biggerThan);
