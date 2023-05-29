@@ -73,4 +73,52 @@
 
 
 
+//! numberEight
+//* fonksiyonun dondurdugu objenin destructiring yontemi ile bolunmesi 
 
+// const production = () => {
+
+//     return {
+//         home: 500,
+//         pName: 'NIKE'
+//     }
+// }
+
+// let { home, pName } = production()
+// console.log(home, pName);
+
+//! numberNine
+//* person1 keyinde bulunan salaryi yazdir.
+
+// const people = {
+//     person1: {
+//       name: "Can",
+//       surname: "Canan",
+//       dob: "1990",
+//       job: "developer",
+//       salary: "140000",
+//       drivingLicense: true,
+//     },
+//     person2: {
+//       name: "John",
+//       surname: "Sweet",
+//        dob: "1990",
+//       job: "tester",
+//       salary: "110000",
+//       drivingLicense: false,
+//     },
+//     person3: {
+//       name: "Steve",
+//       surname: "Job",
+//       dob: "2000",
+//       job: "developer",
+//       salary: "90000",
+//       drivingLicense: true,
+//     },
+//   }
+
+ 
+// const {person1} = people
+
+// const a = person1.salary
+// console.log(a);
