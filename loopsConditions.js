@@ -136,3 +136,45 @@
 
 // console.log(smallerThan);
 // console.log(biggerThan);
+
+//! numberNine
+//* İç içe for döngüsü kurarak çarpım tablosunu yazdırma
+
+// for (let i = 1; i <= 10; i++) {
+//     for (let j = 1; j <=10; j++) {
+
+//         console.log(`${i}*${j}=${i*j}`);
+//         }
+// console.log('===============');
+// }
+
+
+//! numberTen
+//* Armstrong sayı hesaplama (Basamaklarının küpleri toplamı kendisine eşit olan sayılara Armstrong sayı denir .)
+
+// let number = prompt ('please enter a number')
+// let total = 0;
+
+// for (let i = 0; i < number.length; i++) {
+//    total += number[i]**3
+
+// }
+
+// if (total == number){
+//     console.log('Armstrong');
+// }else{
+//     console.log('not Armstrong');
+// }
+
+
+//! numberEleven
+//* Prompt ile kullanıcıdan sayı istenecek. Daha sonra while döngüsüyle bu sayının 0'dan küçük olması veya 100'den büyük olması durumunda yeniden sayı istenecek. Kullanıcı 0-100 arasında sayı girene kadar döngü devam edecek.
+
+// let number = +prompt('sayi')
+
+// while (number<=0 || number>=100) {
+//     console.log('please enter a correct number');
+//     number = +prompt('sayi')
+// }
+
+// console.log(`${number} dogru bir sayidir`);
