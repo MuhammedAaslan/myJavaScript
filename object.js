@@ -350,3 +350,20 @@
 // }
 
 // console.log(a);
+
+//! numberSixteen
+//* 7-  Size bazı dilleri ve verilen dillerdeki test sonuçlarınızı içeren bir dictionarj obj verilir. Test puanınızın en az 60 olduğu dillerin listesini sonuçların azalan sırasına göre döndürün.
+
+
+// let sorted = []
+
+// for (let i in mixed){
+//     if(mixed[i] >=60){
+
+//         sorted.push(mixed[i])
+//     }
+// }
+
+// let m = sorted.sort((a,b)=> (b-a))
+
+// console.log(m);
